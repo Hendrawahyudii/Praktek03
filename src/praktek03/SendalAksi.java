@@ -16,5 +16,14 @@ public class SendalAksi {
         System.out.println(s.getWarna());
         System.out.print("Harganya \t: ");
         System.out.println(s.getHarga());
+        
+        SepatuSendal sm = new SepatuSendal();
+        sm.setMerek("Lesboa");
+        sm.setWarna("Coklat"); 
+        sm.setHarga(1000000);
+        sm.setBahan("Kulit");
+        sm.cetakInfo();
+        System.out.println("Bahan :"+sm.getBahan());
+        sm.throttle();
     }
 }
