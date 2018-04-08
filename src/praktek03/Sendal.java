@@ -1,9 +1,9 @@
 package praktek03;
 
 public class Sendal {
-    String merek;
-    String warna;
-    double harga;
+    private String merek;
+    private String warna;
+    private double harga;
     
     void cetakInfo(){
         System.out.println("Merek \t: "+merek+"\n"+
